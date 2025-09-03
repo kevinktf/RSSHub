@@ -47,7 +47,7 @@ services:
             start_period: 5s
 
     warp-socks:
-        image: monius/docker-warp-socks:latest
+        image: mon-ius/docker-warp-socks:latest
         privileged: true
         volumes:
             - /lib/modules:/lib/modules
